@@ -1,0 +1,37 @@
+
+h1.container {
+	display: flex;
+	background-color:lightgrey;
+	width:500px;
+	height:100px;
+	padding:30px 250px 10px 250px;
+	border:1px solid;
+	font-size:20px;
+	display:block;
+	overflow:scroll;
+}
+
+
+div {
+	border:2px solid;
+	max-height:500px;
+	max-width:500px;
+	background-color:yellow;
+	padding: 30px 30px;
+}
+
+p{
+	font-size:20px;
+}
+img {
+	float:right;
+	max-width: 300px;
+	max-height: 300px
+}
+input {
+	float:right;
+}
+
+
+
+
