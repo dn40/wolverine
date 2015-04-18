@@ -1,38 +1,30 @@
-h1 {
-	line-height:40px;
-	text-decoration: underline;
-	color:black;
-}
-p { 
-	font-family: "Arial";
-	font-color: #555555;
-}
-.#h2 {
-	font-size: 18px;
-	color: black;
-}
-.mainfooter { 
-	background-color:green;
-	font-size:12px;
-}
-table:hover :nth-of-type(1){
 
-	text-decoration:underline;
+
+thead:hover {
 	color:#FEFFDB;
+	cursor:pointer;
 }
-header{
-	
-	margin:40px;
-}
+
 
 hr {
-	color:horizontal #dddddd
+	padding:30px 30px;
+	background-color: #dddddd
 }
 
-div {
-	top-margin:40px;
+.first{
+	width:100px;
+	 
 }
-#instructions {
+ footer{
+ 	font-size:12px;
+ }
+ .main-footer{
+ 	font-size: 12px;
+ }
+ body{
+ 	color:#555555;
+ 	font-family:arial;
+ }
+.header{
 	margin-top: 40px;
-	cursor:pointer;
 }
