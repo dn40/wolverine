@@ -36,7 +36,7 @@ div {
 	top-margin:40px;
 	
 }
-td {
+table {
 	border-color:#444444;
 	background-color:#FEFFDB;
 }
@@ -48,4 +48,7 @@ img {
 	border-color:#8ABD2B;
 	background-color:#C8F279;
 	height:30px;
+}
+hr {
+	color:#dddddd;
 }
