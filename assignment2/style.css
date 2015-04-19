@@ -1,20 +1,13 @@
 
-h2 {
-	margin:40px 40px;
+div{
+margin-top: 40px;
 }
 
-hr {
-	padding:30px 30px;
-	background-color: #dddddd
-}
 td:hover{
 	background-color:#FEFFDB;
 	cursor:pointer;
 }	 
-}
- footer{
- 	font-size:12px;
- }
+
  .main-footer{
  	font-size: 12px;
  }
