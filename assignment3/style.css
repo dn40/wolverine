@@ -15,10 +15,11 @@ h3{
 }
 hr{
 	margin-top: 150px;
+	clear:both;
 }
 
 .button{
-	clear:left;
+	
 	float:right;
 	border-color:#8ABD2B;
 	background-color:#C8F279;
