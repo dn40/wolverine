@@ -1,33 +1,31 @@
 
 .container {
 	background-color:#dddddd;
- 	width:90%;
- 	height:50px;
+ 	width:100%;
+ 	height:200px;
+ 	font-size: 12px;
 }
+
 #container2{
 	padding:20px 50px;
 	border:solid;
 	width:250px;
 	height:200px;
 	background-color:#FEFFDB;
-	font-size:24px;
-
+	font-size:20px;
 }
+
 body{
-	font-size: 20px;
+
 	color:#555555;
 }
-.#h2{
-	font-size:18px;
+
+.site{
+	font-weight: bold;
 }
 
 
 p{
 	font-size:20px;
 }
-hr{
-	padding:0.5px 0.5px;
-	border-style:solid;
-	width:100%
-	height:0.5px;
-}
+
