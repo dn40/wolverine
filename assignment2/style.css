@@ -1,19 +1,16 @@
 
-
-thead:hover {
-	color:#FEFFDB;
-	cursor:pointer;
+h2 {
+	margin:40px 40px;
 }
-
 
 hr {
 	padding:30px 30px;
 	background-color: #dddddd
 }
-
-.first{
-	width:100px;
-	 
+td:hover{
+	background-color:#FEFFDB;
+	cursor:pointer;
+}	 
 }
  footer{
  	font-size:12px;
@@ -25,6 +22,4 @@ hr {
  	color:#555555;
  	font-family:arial;
  }
-.header{
-	margin-top: 40px;
-}
+
