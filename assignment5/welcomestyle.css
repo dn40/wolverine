@@ -1,0 +1,31 @@
+
+.container {
+	background-color:#dddddd;
+ 	width:100%;
+ 	height:200px;
+ 	font-size: 12px;
+}
+
+#container2{
+	padding:20px 50px;
+	border:solid;
+	width:250px;
+	height:200px;
+	background-color:#FEFFDB;
+	font-size:20px;
+}
+
+body{
+
+	color:#555555;
+}
+
+.site{
+	font-weight: bold;
+}
+
+
+p{
+	font-size:20px;
+}
+
