@@ -1,83 +1,54 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-	
 	<head>
-		<title>Buffalo Chicken Wings</title>
-<link rel="stylesheet" href="style.css" />
+		<title>Recipes</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body style="background-color:red;">
-		<header>
-		<h1>Buffalo Chicken Wings</h1>
-		<img src= "http://i829.photobucket.com/albums/zz216/Peacefulrain09/Food/WingsBuffalo_zps5c03a9a8.jpg">
+<body>
+<div class="container">
+	<img src="https://s-media-cache-ak0.pinimg.com/originals/39/4d/e2/394de234fef7fc99e7fc1f902d1fdc46.jpg"/>Recipes
 
-		<input id="recipe" type="button" value= "Save Recipe"/>
+<nav>
+	<ul class="nav">
+		<li><a href="recipepage4.html">Home</a></li>
+		<li><a href="recipepage4.html">Recipes</a></li>
+		<li><a href="submitarecipe.html">SubmitRecipes</a></li>
+	</ul>	
+	</nav>
+</div>
 
-			<h2><a href="#h2">Instructions</a></h2>
-			</header>
-			<div>
-			<ol>
-
-				<li> Place a 6-quart saucepan with a steamer basket and 1-inch of water in the bottom, over high heat, cover and bring to a boil.</li>
-
-				<li>Remove the tips of the wings and discard or save for making stock. Using kitchen shears, or a knife, separate the wings at the joint. Place the wings into the steamer basket, cover, reduce the heat to medium and steam for 10 minutes. Remove the wings from the basket and carefully pat dry. Lay the wings out on a cooling rack set in a half sheet pan lined with paper towels and place in the refrigerator for 1 hour.</li>
-				<li>Preheat the oven to 425 degrees F.
-				Replace the paper towels with parchment paper. Roast on the middle rack of the oven for 20 minutes. Turn the wings over and cook another 20 minutes or until meat is cooked through and the skin is golden brown.</li>
-
-				<li>While the chicken is roasting, melt the butter in a small bowl along with the garlic. Pour this along with hot sauce and salt into a bowl large enough to hold all of the chicken and stir to combine.
-				Remove the wings from the oven and transfer to the bowl and toss with the sauce. Serve warm.</li>
-			</ol>
-			</div>
-			<hr></hr>
-		<table border= "1">
-		<thead>
-			<th>Ingredients</th>
-			<th>Quantity</th>
-			<th>Tasty images</th>
-			</thead>
-				<tr><a href="#tr"></a>
-					<td>whole chicken wings</td>
-					<td>12</td>
-					<td><a href= "http://www.askchefdennis.com/wp-content/uploads/2013/01/buffalo-chicken-wings.jpg">Yummy</a><td>
-				</tr>
-					<td>unsalted butter</td>
-					<td>3 ounces</td>
-					<td><a href= "http://www.nationalchickenwingday.com//wp-content/gallery/main/06.jpg">Scrumptious</a><td>
-				<tr>
-					<td> garlic</td>
-					<td>1 small clove minced</td>
-					<td><a href= "http://momzinga.com/wp-content/uploads/2014/03/Wings.jpg">Who's Hungry</a><td>
-				</tr>
-					<td> hot sauce</td>
-					<td>1/4cup</td>
-				<tr>
-					<td> salt</td>
-					<td>1/2 teaspoon</td>
-				</tr>
-				
-		</table><br>
+		<div class:"site">
+			<h2>Submit a Recipe</h2>
 	
-		<fieldset>
-		<legend>Sign up on our mailing list for more great recipes!</legend>
-				
-			<form action ="#" method= "POST" name= "my_form">
-				<input type = "text" name = "username">
-				<input type = "text" name = "username">
-		<select>
-				<option> "Select favorite food"</option>
-				<option>pizza</option>
-				<option>Hamburgers</option>
-				<option>Pickles</option>
-				<option>ice cream</option>
-				<option>beer</option>
-			</select>
-			</form>
-		</fieldset>
+			<h3>We'd love to know what your favorite recipes are! Submit them here and if they are awesome, we'll include them on our site.</h3>
+		</div>
 		
-		<a href="mail to:doug_neville@hotmail.com">Send me an email!</a>
-		<span> 253-720-2168</span> 
-		<footer class="main footer">
-		</footer>
-	
-	</body>
-</html>
+		<div id="container2">
+			<p>Your name</p>
+			<input type="text" name="your name">
+			<p>Your email</p>
+			<input type="text" name="your email">
+			
+			<fieldset>
+			<legend>What type of recipe is this?</legend>
+			<select>
+				<option>Maincourse</option>
+				<option>Appetizer</option>
+				<option>dessert</option>
+			</select>
+			</fieldset>
+			
+			<p>Enter your recipe below:</p>
+			<textarea rows="10" col="30">
+			</textarea>
+		
+			<input class="button" type="submit" value='Submit a Recipe'><a href="submitarecipe.html"></a>
+		
+			</div>
+			<hr>
+		<footer>
+		<a href="mailto:doug_neville@hotmail.com">doug_neville@hotmail.com</a>
+			<span> 253-720-2168</span>
+			</footer>
+		</body>
+	</html>

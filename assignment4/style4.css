@@ -15,6 +15,7 @@ h3{
 }
 hr{
 	margin-top: 150px;
+	clear:both;
 }
 
 .button{
@@ -38,6 +39,7 @@ p
  }
  body {
  	color:#555555;
+ 	display:flexbox;
  }
  .container{
  	background-color:#dddddd;
