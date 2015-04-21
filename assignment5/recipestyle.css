@@ -3,9 +3,8 @@ thead:hover {
     cursor: pointer;
 }
 
-img {
-    width: 100px;
-    float: left;
+img{
+    width:200px;
 }
 
 h2 {
@@ -18,7 +17,7 @@ h3 {
 }
 
 hr {
-    margin-top: 150px;
+    margin-top: 100px;
     clear: both;
 }
 
@@ -27,7 +26,7 @@ hr {
     border-color: #8ABD2B;
     background-color: #C8F279;
     height: 30px;
-    margin: 10px 20px 20px 10px;
+    margin: -150px 20px 20px 10px;
 }
 
 table {
@@ -35,7 +34,7 @@ table {
     border-width: 20px;
     background-color: #FEFFDB;
     width: 100px;
-    margin: 50px 50px 40px 10px;
+    margin: 30px 50px 40px 10px;
 }
 
 p .main-footer {
@@ -47,31 +46,29 @@ body {
     display: flexbox;
 }
 
-.nav {
-    border: solid;
-    font-size: 20px;
-    display: -webkit-flex;
-    display: block;
-    width: 95%;
-    height: 100px;
-    background-color: #dddddd;
+
+nav {
+    background: grey;
 }
 
-.image:first-child {
-    margin-right: auto;
-}
-
-.nav li {
-    align-self: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    list-style: none;
-}
-.nav {
+nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
+
+
+nav ul li {
+    list-style-type: none;
+    align-self: center;
+    margin-right:30px;
+}
+
+nav ul li img{
+    width: 100px;
+    height: 100px;
+}
+
 @media screen and (max-width: 480px) {
     nav {
         width: 100px;
@@ -84,8 +81,11 @@ nav ul {
 }
 
 @media screen and (max-width: 480px) {
-    .button {
+    nav ul {
         flex-direction: column;
-        margin: 10px;
+
+    }
+    nav{
+        width:100%;
     }
 }
