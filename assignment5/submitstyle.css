@@ -1,3 +1,4 @@
+
 .site {
     font-weight: bold;
 }
@@ -53,3 +54,12 @@ form textarea {
     margin-right: 10px;
     list-style: none;
 }
+@media screen and (max-width:480px){
+    nav{
+        width:100px;
+        margin-bottom: 10px;
+    }
+}
+    nav ul{
+        list-style: none;
+    }
