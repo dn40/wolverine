@@ -1,0 +1,47 @@
+@media (min-width: 480px) { 
+
+}
+.circle{
+   display: block;
+   margin: 0 15px;
+   width: 250px;
+   height: 250px;
+   background-color:#dddddd;
+   border-radius: 50%;
+   float:left;
+}
+
+.jumbotron{
+	text-align:center;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+	
+body{
+	padding-top: 10px;
+}
+.container{
+	max-width:1000px;
+}
+
+.circle1{
+   display: block;
+   margin: 0px 5px 50px 50px;
+   width: 250px;
+   height: 250px;
+   background-color:#dddddd;
+   border-radius: 50%;
+   float:right;
+
+}
+
+.circle3{
+   display: block;
+   margin: 0 15px;
+   width: 250px;
+   height: 250px;
+   background-color:#dddddd;
+   border-radius: 50%;
+   float:right;
+}
