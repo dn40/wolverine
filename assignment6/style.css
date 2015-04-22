@@ -8,7 +8,7 @@
    height: 250px;
    background-color:#dddddd;
    border-radius: 50%;
-   float:left;
+
 }
 
 .container-fluid{
@@ -33,7 +33,7 @@ body{
    height: 250px;
    background-color:#dddddd;
    border-radius: 50%;
-   float:right;
+
 
 }
 
