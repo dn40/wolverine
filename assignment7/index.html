@@ -11,77 +11,75 @@
     <div class="page-header">
         <h1>Choose Wisely! <small>One button does not belong</small></h1>
     </div>
-    <button id="Hello Doug">Hello Doug</button>
-    <button id="car">Car</button>
-    <button id="LoopNames">LoopNames</button>
-    <button id="NumberLoop">NumberLoop</button>
-    <button id="NameArray">NameArray</button>
-    <button id="4names">4names</button>
-    <button id="Ploop">Ploop</button>
-    <script language="javascript" type="text/javascript">
-    
-    var name = "Doug";
-    document.getElementById("Hello Doug").addEventListener('click', function() {
+    <button id="button1">Hello Doug</button>
+    <button id="button2">Car</button>
+    <button id="button3">LoopNames</button>
+    <button id="button4">NumberLoop</button>
+    <button id="button5">NameArray</button>
+    <button id="button6">Ploop</button>
+    <script type="text/javascript">
+    // Name and Hello Doug button//
 
-        console.log("Hello"++"Doug");
+    document.getElementById("button1").addEventListener("click", function() {
+        console.log("Hello" + "Doug");
+    }, false);
 
+    // Create Array of 4 names and select the 2nd one LoopNames//
 
+    var myArray = ["Bob", "Steve", "Jerry", "Peter"];
+    document.getElementById("button3").addEventListener("click", function() {
+        console.log(myArray[1]);
     }, false);
 
 
-    document.getElementById("NameArray").addEventListener('click', function() {
+    // Loop through the Array and log each name to the console NameArray//
 
-        var myArray = ['Bob', 'Steve', 'Jerry', 'Peter'];
-        console.log[1];
-
+    var myArray = ["Bob", "Steve", "Jerry", "Peter"];
+    document.getElementById("button5").addEventListener("click", function() {
+    for (var i = 0; i < myArray.length; i++); {
+        console.log(myArray[i]);
+    }
     }, false);
 
 
-    document.getElementById("NumberLoop").addEventListener('click', function() {
 
-        for (i + 0; i < 10; i + 1) {
-            console.log(1);
+    // create array that selects names with "P"  PLoop
+
+    document.getElementById("button6").addEventListener("click", function() {
+    var myArray = ['Bob', 'Steve', 'Jerry', 'Peter'];
+     for (i = 0; i < myArray.length; i++) {
+            if (myArray[i].substring(0, 1) === "P") {
+                console.log(myArray[i]);
+            }
+
         }
+    });
 
-    }, false);
 
-    document.getElementById("LoopNames").addEventListener('click', function() {
+    // Create a loop that logs 1-10 to the console// NumberLoop
 
-        var myArray = ['Bob', 'Steve', 'Jerry', 'Peter'];
-        for (var i = 0; i < myArray.length; i++) {
+    document.getElementById("button4").addEventListener("click", function() {
+        var i = 0;
+        for (i = 1; i < 11; i++) {
             console.log(i);
         }
-
-    }, false);
-
-
-    document.getElementById("Ploop").addEventListener('click', function() {
-
-        var myArray = ['Bob', 'Steve', 'Jerry', 'Peter'];
-        var search = function(Peter) {
-            for (var in myArray) {
-                if (myArray === Peter) {
-                    console.log(Peter);
-                }
-            }
-        };
-        list(myArray);
-        search("Peter");
+    });
 
 
-    }, false);
 
-    document.getElementById("car").addEventListener('click', function() {
 
+    // make the car honk Car
+
+    document.getElementById("button2").addEventListener("click", function() {
         var car = {
             door: 4,
             honk: function() {
-                console.log("honk");
+                console.log("Honk");
             }
-        }
+
+        };
         car.honk();
-    }, false);
-    
+    });
     </script>
 </body>
 
