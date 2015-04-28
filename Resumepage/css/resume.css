@@ -9,22 +9,22 @@ nav ul li{
 
 
 .jumbotron  {
-    background: url("resumeimage.jpg") no-repeat;
+    background: url("../img/resumeimage.jpg") no-repeat;
     background-size:100%;
     height:500px;
     font-size:50px;
     font-weight: bold;
     text-align: center;
     background-position:center center;
+    color:red;
 }
 .row{
     display:inline;
     font-weight: bold;
 }
 
-.thumbnail{
-    width:30px;
-}
+
+
 img{
     width:200px;
 
@@ -32,4 +32,184 @@ img{
 .name{
     font-size: 30px;
     font-weight: bold;
+
+
 }
+.box1{
+    width:100px;
+}
+.box2{
+    width:100px;
+}
+.box3{
+    width:100px;
+}
+.box4{
+    width:100px;
+}
+.box5{
+    width:100px;
+}
+.box6{
+    width:100px;
+}
+.stats{
+    background-color:#dddddd;
+    height:200px;
+}
+
+.what{
+    font-size: 30px;
+    font-weight: bold;
+    margin:20px;
+}
+
+.services{
+    font-size: 20px;
+    margin:20px;
+
+}
+.container-fluidgrey {
+    background-color:#dddddd;
+    height:250px;
+    width:100%;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.submit{
+    
+    margin-left:800px;
+}
+.status{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.resume{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.experience{
+    padding:100px 0px;
+}
+.education{
+    font-size:20px;
+}
+
+.work {
+    padding:100px 0px;
+
+}
+.psychology{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.line1{
+    width:300px;
+    display:center;
+}
+.assoc{
+    padding:25px 0px;
+}
+
+.degree{
+        padding:10px 0px;
+        font-size: 15px;
+}
+
+.af{
+    margin-top:120px;
+}
+.end2{
+    font-size: 15px;
+}
+.python2{
+    font-size: 15px;
+}
+
+.end{
+    margin-top: 60px;
+}
+
+
+.Google{
+    margin-top: 180px;
+}
+.year{
+    font-size: 15px;
+}
+.year2{
+    font-size: 15px;
+}
+.microsoft{
+    margin-top: 80px;
+}
+
+.customer{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-fluidblack{
+    background-color:black;
+    height:800px;
+}
+
+.contact{
+    font-size:50px;
+    color:white;
+}
+.list{
+    list-style-type: square;
+    color:white;
+}
+.web{
+    color:red;
+    list-style-type: square;
+}
+
+.drop{
+    color:white;
+
+}
+.alone{
+    color:white;
+    margin-top: 50px;
+}
+
+
+.form-group{
+    padding:100px 0px;
+}
+
+.Name1{
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.mail{
+    margin-bottom: 10px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+footer{
+    color:white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
