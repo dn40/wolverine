@@ -1,230 +1,250 @@
-
-
-nav ul li{
+nav ul li {
     margin-right: 90px;
-    display:inline;
+    display: inline;
     list-style-type: none;
-    z-index:1;
+    z-index: 1;
+}
 
-    
+.info {
+    display: inline;
+    color: black;
+    font-size: 15px;
 }
-.containerA{
-    font-size:20px;
-    display:inline;
-    color:black;
+
+.containerB {
+    margin-top: 470px;
 }
-.container-fluidA{
-    font-size:15px;
-    color:black;
+
+.containerA {
+    font-size: 20px;
+    display: inline;
+    color: red;
+}
+
+.container-fluidA {
+    font-size: 15px;
+    color: black;
     margin-top: -30px;
 }
-.container{
+
+.container {
     margin-top: 80px;
-    font-family:open-sans;
+    font-family: open-sans;
 }
 
-.jumbotron  {
+.jumbotron {
     background: url("../img/resumeimage (1).jpg") no-repeat;
     background-size: 100% 100%;
-    height:800px;
-    width:100%;
-    font-size:50px;
+    height: 800px;
+    width: 100%;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-
-}
-.row{
-    display:inline;
-    
 }
 
-
-
-img{
-    width:200px;
-
+.row {
+    display: inline;
 }
-.name{
+
+img {
+    width: 200px;
+}
+
+.name {
     font-size: 30px;
     font-weight: bold;
-
-
-}
-.box1{
-    width:100px;
-}
-.box2{
-    width:100px;
-}
-.box3{
-    width:100px;
-}
-.box4{
-    width:100px;
-}
-.box5{
-    width:100px;
-}
-.box6{
-    width:100px;
-}
-.stats{
-    background-color:#dddddd;
-    height:200px;
 }
 
-.what{
+.box1 {
+    width: 100px;
+}
+
+.box2 {
+    width: 100px;
+}
+
+.box3 {
+    width: 100px;
+}
+
+.box4 {
+    width: 100px;
+}
+
+.box5 {
+    width: 100px;
+}
+
+.box6 {
+    width: 100px;
+}
+
+.stats {
+    background-color: #dddddd;
+    height: 200px;
+}
+
+.what {
     font-size: 30px;
     font-weight: bold;
-    margin:20px;
+    margin: 20px;
 }
 
-.services{
+.services {
     font-size: 20px;
-    margin:20px;
-
+    margin: 20px;
 }
+
 .container-fluidgrey {
-    background-color:#dddddd;
-    height:250px;
-    width:100%;
-    font-size:20px;
-    font-weight: bold;
+    background-color: #dddddd;
+    height: 300px;
+    width: 100%;
+    font-size: 20px;
+}
 
+.submit {
+    margin-left: 800px;
 }
-.submit{
-    
-    margin-left:800px;
-}
-.status{
+
+.status {
     font-size: 20px;
     padding: 20px 0px;
 }
-.resume{
+
+.resume {
     font-size: 15px;
     margin-top: 20px;
 }
 
-
-.experience{
-    padding:100px 0px;
+.experience {
+    padding: 100px 0px;
 }
-.education{
-    font-size:20px;
+
+.education {
+    font-size: 20px;
 }
 
 .work {
-    padding:100px 0px;
-
+    padding: 100px 0px;
 }
-.psychology{
+
+.psychology {
     font-size: 15px;
     margin-top: 20px;
 }
 
-
-.line1{
-    width:300px;
-    display:center;
-}
-.assoc{
-    padding:25px 0px;
+.line1 {
+    width: 300px;
+    display: center;
 }
 
-.degree{
-        padding:10px 0px;
-        font-size: 15px;
+.assoc {
+    padding: 25px 0px;
 }
 
-.af{
-    margin-top:120px;
-}
-.end2{
-    font-size: 15px;
-}
-.python2{
+.degree {
+    padding: 10px 0px;
     font-size: 15px;
 }
 
-.end{
+.af {
+    margin-top: 120px;
+}
+
+.end2 {
+    font-size: 15px;
+}
+
+.python2 {
+    font-size: 15px;
+}
+
+.CV {
+    color: blue;
+}
+
+.btn-default {
+    border: 1px 1px;
+    border-color: red;
+}
+
+.end {
     margin-top: 60px;
 }
 
-
-.Google{
-    margin-top: 180px;
-}
-.year{
-    font-size: 15px;
-}
-.year2{
-    font-size: 15px;
-}
-.microsoft{
-    margin-top: 80px;
+.Google {
+    margin-top: 235px;
 }
 
-.customer{
+.year {
+    font-size: 15px;
+}
+
+.year2 {
+    font-size: 15px;
+}
+
+.microsoft {
+    margin-top: 10px;
+}
+
+.customer {
     font-size: 20px;
     font-weight: bold;
 }
 
-.container-fluidblack{
-    background-color:black;
-    height:800px;
+.container-fluidblack {
+    background-color: black;
+    height: 810px;
 }
 
-.contact{
-    font-size:50px;
-    color:white;
+.contact {
+    font-size: 50px;
+    color: white;
 }
-.list{
+
+.list {
     list-style-type: square;
-    color:white;
+    color: white;
 }
-.web{
-    color:red;
+
+.web {
+    color: #DC143C;
     list-style-type: square;
 }
 
-.drop{
-    color:white;
-
+.drop {
+    color: white;
 }
-.alone{
-    color:white;
+
+.alone {
+    color: white;
     margin-top: 50px;
 }
 
-
-.form-group{
-    padding:100px 0px;
+.form-group {
+    padding: 100px 0px;
 }
 
-.Name1{
+.Name1 {
     margin-top: 150px;
     margin-bottom: 10px;
 }
 
-.mail{
+.mail {
     margin-bottom: 10px;
 }
 
-.button{
+.button {
     margin-top: 20px;
+    border-color: red;
 }
 
-footer{
-    color:white;
-    margin: 20px;
+footer {
+    color: white;
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
+.containerfoot {
+    margin-top: 15px;
+}
