@@ -13,10 +13,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top ">
+    <nav class="navbar navbar-fixed-top navbar-inverse ">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="container">
+            <div class="containerA">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -44,34 +44,30 @@
     </nav>
     <!-- Jumbotron with picture connected in CSS -->
     <div class="jumbotron">
-        <div class="container">
-            <div class="row">
+        <div class="containerB">
+            <div class="rowTwo">
                 <div id="Home"></div>
                 <div class="col-md-12">
                     <h1 class="wow rubberBand">Hello, I'm Douglas Neville</h1>
                     <span class="rotate">Visual Designer, Front-end developer,HTML5, CSS3, Javascript, jQuery</span>
                 </div>
                 <!-- two rows: the first row with 3 boxes. the second will be email,phone#,address -->
-                <div class="rowOne">
-                    <!-- Contact info row -->
-                    <div class="wow shake">
-                        <div class="col-md-4">
-                            <span class="info">Doug_neville@hotmail.com</span>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="info">7001 Interbay Blvd unit #101, Tampa, FL 33616</span>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="info">253-720-2168</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
+    <div class="rowOne">
+        <!-- Contact info row -->
+        <div class="wow shake">
+            <div class="col-md-4">
+                <span class="info">Doug_neville@hotmail.com</span>
+            </div>
+            <div class="col-md-4">
+                <span class="info">7001 Interbay Blvd unit #101, Tampa, FL 33616</span>
+            </div>
+            <div class="col-md-4">
+                <span class="info">253-720-2168</span>
+            </div>
+        </div>
     </div>
     <hr></hr>
     <!-- 2nd page: Picture with skillset and profile. 2 seperate containers container2 for CSS purposes-->
@@ -100,10 +96,10 @@
                         <img class="twitter" src="../img/twitter.jpg">
                         <img class="linkedin" src="../img/linkedin.png">
                     </div>
-                    <div class="col-xs-6 col-md-4"><strong>Profesional Profile</strong>
+                </div>
+                <div class="col-xs-6 col-md-4"><strong>Profesional Profile</strong>
                         <p>A self-starter and quick learner. Versatile skill set with experience in customer service, sales, and written and oral communication. Received multiple awards for excellence in customer service. Recognized skills in mentoring and mediating between employees, and in leading team projects.</p>
                     </div>
-                </div>
             </div>
         </div>
         <!-- three image boxes with numerical statistics -->
@@ -111,7 +107,7 @@
         <div class="container-fluidgrey">
             <div class="stats">
                 <div class="container">
-                    <div class="row">
+                    <div class="rowThree">
                         <div class="col-xs-6 col-sm-3">MyStats
                         </div>
                         <div class="col-xs-6 col-sm-3"><i class="fa fa-coffee" style="font-size:100px"></i><span class="timer" data-from="0" data-to="32" data-speed="3000"></span>
@@ -163,7 +159,7 @@
         <div class="container-fluidgrey">
             <div class="container">
                 <div class="contact1">
-                    <div class="row">
+                    <div class="rowFour">
                         <div class="col-md-6"><strong>My Status</strong>
                         </div>
                         <div class="col-md-6">I'm currently available for Freelance Work
@@ -181,12 +177,15 @@
             <div class="education">
                 <div class="container">
                     <div class="row">
+                    <div class="wow slideInLeft">
                         <div class="col-md-4"><strong>Resume</strong>
                             <p class="resume">My educational Experience</p>
                             <p class="experience">Education</p>
                             <p class="work">Experience</p>
                         </div>
+                        </div>
                         <div class="col-md-4">Psychology
+                        <div class="wow slideInUp">
                             <p class="psychology">A superior leader with demonstrated performance in high-pressure environments. Improved organizational performance through hands-on training and a leadership approach that emphasized decision-making through active listening.</p>
                             <hr class="line1"></hr>
                             <p class="assoc">Associates Airway Science</p>
@@ -200,15 +199,17 @@
                             <hr class="line1"></hr>
                             <p class="python"> Certifications</p>
                             <p class="python2">Emergency Medical Technician Washington State Certification, National Registry of Emergency Medical Technicians (NREMT) Registry No. E3089535</p>
+                            </div>
                             <hr class="line2"></hr>
                             <div class "wow bounceOutRight">
                                 <button type="button" class="btn btn-default" aria-label="left Align">
-                                    <a href="../Assets/NL Resume"></a>
+                                    <a href="../Assets/Doug Resume 2-copy"></a>
                                     <span class="CV">Download CV</span>
                                 </button>
                             </div>
                         </div>
                         <div class="col-md-4">
+                        <div class="wow slideInRight">
                             <p>Brandman University</p>
                             <p class="year">2011</p>
                             <p class="af">Community College of the Air Force</p>
@@ -222,6 +223,7 @@
                 </div>
             </div>
         </div>
+        </div>
         <!-- Customers who utilized my services page -->
         <div class="container-fluidgrey">
             <div id="Portfolio"></div>
@@ -231,14 +233,9 @@
                         <p class="customer">Customers</p>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                        <img class="Google1" src="../img/google_416X416.jpg" />
+                        <img class="USAF" src="../img/USAF_logo.png" />
                     </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <img class="microsoft" src="../img/microsoft-logo1.jpg" />
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <img class="Google1" src="../img/google_416X416.jpg" />
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -250,17 +247,17 @@
                     <div class="col-xs-6">
                         <p class="contact"> Contact Us</p>
                         <p class="drop">Drop us a line or give us a ring. We'd love to hear from you!</p>
-                        <p class="alone">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend</p>
+                        <p class="alone">This is the first website that I have built. I hope you see the hard work I've put into it and the potential that I have. Thanks for visiting</p>
                         <ul>
-                            <li class="list">7001 Interbay Blvd unit 101, Tampa,FL 33616</li>
-                            <li class="list">253-720-2168</li>
+                            <li class="list">7221 Interbay Blvd unit 101, Tampa,FL 33616</li>
+                            <li class="list">253-720-2228</li>
                             <li class="web">support@site.com</li>
                             <li class="web">http//www.site.com</li>
                         </ul>
                     </div>
                     <div class="col-xs-6">
                         <div class="Name1">
-                            <input type="text" name="your name" placeholder="Name" style="width:400px;" />
+                            <input type="text" name="your name" placeholder="Name" style="width:400px; margin-bottom:10px;" />
                         </div>
                         <div class="mail">
                             <input type="text" name="your email" placeholder="your email" style="width:400px;" />
@@ -269,22 +266,19 @@
                             <textarea type="text" name="Your Message" style="width:400px; height:400px;">
                             </textarea>
                         </div>
-                        <div class="row">
+                
                             <button type="button" class="btn btn-default" aria-label="left Align"><a href="mailto:doug_neville@hotmail.com">Send it
                     </a>
                             </button>
-                        </div>
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="containerfoot">
-                    <div class="row">
+            <footer>            
+                    <div class="rowThree">
                         <div class="col-md-12">
                             Copyright <span class="glyphicon glyphicon-copyright-mark"></span>Doug Circles 2015
                         </div>
                     </div>
-                </div>
             </footer>
         </div>
         <!-- Link to jquery and my js file -->

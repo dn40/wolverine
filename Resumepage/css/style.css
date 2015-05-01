@@ -5,9 +5,11 @@ nav ul li {
     list-style-type: none;
     z-index: 1;
 }
-
+.rowOne{
+    margin-right: 100px;
+}
 .container {
-    margin-bottom: 100px;
+    margin-top: 80px;
 }
 
 .twitter {
@@ -19,11 +21,12 @@ nav ul li {
 }
 
 img {
-    width: 200px;
+    width: 300px;
 }
 
-.rowOne {
-    font-size: 15px;
+
+.rowTwo {
+    font-size: 20px;
 }
 
 .jumbotron {
@@ -74,6 +77,12 @@ img {
 
 .submit {
     margin-left: 800px;
+}
+.rowThree{
+    margin-top: 20px;
+}
+.rowFour{
+    margin-top: 20px;
 }
 
 .status {
@@ -142,9 +151,7 @@ img {
     margin-top: 60px;
 }
 
-.Google {
-    margin-top: 250px;
-}
+
 
 .year {
     font-size: 15px;
@@ -154,8 +161,9 @@ img {
     font-size: 15px;
 }
 
-.microsoft {
-    margin-top: 10px;
+.USAF{
+    margin-top: 20px;
+
 }
 
 .customer {
@@ -198,7 +206,7 @@ img {
 
 .Name1 {
     margin-top: 150px;
-    margin-bottom: 10px;
+    padding-bottom: :10px;
 }
 
 .mail {
@@ -208,6 +216,9 @@ img {
 .button {
     margin-top: 20px;
     border-color: red;
+}
+.rowThree{
+    padding:20px 0px 10px 0px;
 }
 
 footer {
